@@ -1,79 +1,48 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "name": "Unity Nodes",
   "theme": "mint",
-  "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#8b5cf6",
+    "dark": "#0f0f0f",
+    "light": "#1f1f1f"
   },
-  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides.",
+        "tab": "Docs",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "🌐 MAINNET NETWORK",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "mainnet/nibiru",
+              "mainnet/oraichain",
+              "mainnet/seda",
+              "mainnet/selfchain"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "🧪 TESTNET NETWORK",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              "testnet/xrpl-evm",
+              "testnet/pell",
+              "testnet/empeiria",
+              "testnet/symphony",
+              "testnet/warden",
+              "testnet/lava",
+              "testnet/zero-gravity",
+              "testnet/gensyn"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "🧰 USEFUL RESOURCES",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "tools/governance-bot"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -82,21 +51,17 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Main Site",
+        "href": "https://unitynodes.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Explorer",
+      "href": "https://explorer.unitynodes.com"
     }
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "socials": {}
   }
 }
