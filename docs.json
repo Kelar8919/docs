@@ -15,7 +15,19 @@
           {
             "group": "🌐 MAINNET NETWORK",
             "pages": [
-              "mainnet/nibiru",
+              {
+                "label": "Nibiru",
+                "pages": [
+                  "mainnet/nibiru/installation",
+                  "mainnet/nibiru/upgrade",
+                  "mainnet/nibiru/commands",
+                  "mainnet/nibiru/migrate",
+                  "mainnet/nibiru/monitoring",
+                  "mainnet/nibiru/rpc",
+                  "mainnet/nibiru/snapshots",
+                  "mainnet/nibiru/articles"
+                ]
+              },
               "mainnet/oraichain",
               "mainnet/seda",
               "mainnet/selfchain"
